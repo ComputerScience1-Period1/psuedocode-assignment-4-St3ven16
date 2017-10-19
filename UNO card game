@@ -1,0 +1,48 @@
+starting game:
+  number of players;
+  shuffle cards;
+  grab 7 random cards from deck;
+  place 1 card from deck on the table;
+  rotation of players;
+  begin match; 
+  
+}
+ 
+  color = Red, Green, Blue, Yellow;
+  numbers = 0-9;
+  add cards = +2, +4; 
+  wild = color;
+  players deck = 7
+  
+}
+
+  if(card played matches color)
+    card is playable;
+      if(card played matches number)
+      card is playable;
+        if(card is same color and +2 or +4)
+        next player must draw 2 or 4 cards from deck;
+          if(wild card)
+          card is playable;
+            
+          
+}
+
+  else(no card is playable)
+  draw a card from deck until a card can be played; 
+  
+  players deck = 1
+  players yells UNO;
+  
+  players deck = 0
+  player wins the game;
+ 
+ while(other players play for 2nd, 3rd, 4th);
+ 
+}
+
+
+
+  
+  
+  
