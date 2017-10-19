@@ -20,7 +20,7 @@ starting game:
     card is playable;
       if(card played matches number)
       card is playable;
-        if(card is same color and +2 or +4)
+        if(card is +2 or +4)// same color does not make next player draw any cards
         next player must draw 2 or 4 cards from deck;
           if(wild card)
           card is playable;
